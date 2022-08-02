@@ -1,0 +1,28 @@
+//* Colors *\\
+  //? Primary
+$softRed: hsl(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$darkCyanText: hsl(167, 40%, 24%);
+$darkBlue: hsl(198, 62%, 26%);
+$darkCyanFooter: hsl(168, 34%, 41%);
+
+  //? Neutral
+$darkerBlue: hsl(212, 27%, 19%);
+$darkGrayBlue: hsl(232, 10%, 55%);
+$darkerGrayBlue: hsl(213, 9%, 39%);
+$grayBlue: hsl(210, 4%, 67%);
+$white: hsl(0, 0%, 100%);
+
+//* Fonts
+  //? Families
+$fontSansSerif: 'Barlow';
+$fontSerif: 'Fraunces';
+
+  //? Weights
+$fontWeightMed: 600;
+$fontWeightBold: 700;
+$fontWeightBolder: 900;
+
+//* Breakpoints
+$maxWidthMobile: 412px;
+$maxWidthDesktop: 1440px;

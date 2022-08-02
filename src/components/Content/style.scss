@@ -1,0 +1,186 @@
+@import '../../styles/vars';
+
+.content {
+
+  &-wrapper {
+    // display: flex;
+  }
+
+  &-egg img {
+    max-width: 100%;
+  }
+
+  &-brand {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3em;
+    
+    &-title {
+      margin-top: 2em;
+      margin-bottom: 1em;
+      font-family: $fontSerif;
+      font-size: 2em;
+      font-weight: $fontWeightBolder;
+      color: $darkerBlue;
+      line-height: 45px;
+    }
+
+    &-desc {
+      margin: auto;
+      color: $darkerGrayBlue;
+      width: 90%;
+      font-family: $fontSansSerif;
+      font-size: 18px;
+      margin-bottom: 2em;
+      font-weight: $fontWeightBold;
+      line-height: 25px;
+    }
+
+    &-link {
+      cursor: pointer;
+      text-transform: uppercase;
+      color: $darkerBlue;
+      font-weight: $fontWeightBold;
+      position: relative;
+      transition: all .2s ease-in-out;
+
+      &::after {
+        content: attr(data-word);
+        display: block;
+        height: 50%;
+        left: -11px;
+        padding-top: 0.14em;
+        position: absolute;
+        pointer-events: none;
+        overflow: hidden;
+        color: $darkerBlue;
+        bottom: -0.2em;
+        width: 120%;
+        background-color: $yellow;
+        opacity: 0.5;
+        z-index: -1;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  &-glass img {
+    max-width: 100%;
+  }
+
+  &-audience {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3em;
+    
+    &-title {
+      margin-top: 2em;
+      margin-bottom: 1em;
+      font-family: $fontSerif;
+      font-size: 2em;
+      font-weight: $fontWeightBolder;
+      color: $darkerBlue;
+      line-height: 45px;
+    }
+
+    &-desc {
+      margin: auto;
+      color: $darkerGrayBlue;
+      width: 90%;
+      font-family: $fontSansSerif;
+      font-size: 18px;
+      margin-bottom: 2em;
+      font-weight: $fontWeightBold;
+      line-height: 25px;
+    }
+
+    &-link {
+      cursor: pointer;
+      text-transform: uppercase;
+      color: $darkerBlue;
+      font-weight: $fontWeightBold;
+      position: relative;
+      transition: all .2s ease-in-out;
+
+      &::after {
+        content: attr(data-word);
+        display: block;
+        height: 50%;
+        left: -11px;
+        padding-top: 0.14em;
+        position: absolute;
+        pointer-events: none;
+        overflow: hidden;
+        color: $darkerBlue;
+        bottom: -0.2em;
+        width: 120%;
+        background-color: $softRed;
+        opacity: 0.5;
+        z-index: -1;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  &-cherry {
+    background-image: url("../../../images/mobile/image-graphic-design.jpg");
+    background-size: 100%;
+    height: 70vh;
+    text-align: center;
+    position: relative;
+
+    &-wrapper {
+      position: absolute;
+      bottom: 3em;
+    }
+
+    &-title {
+      font-size: 2em;
+      font-weight: $fontWeightBolder;
+      color: $darkCyanText;
+    }
+
+    &-desc {
+      margin: auto;
+      line-height: 1.5em;
+      width: 90%;
+      font-family: $fontSansSerif;
+      font-weight: 700;
+      font-size: 18px;
+      margin-top: 2em;
+      color: $darkCyanText;
+    }
+  }
+
+  &-orange {
+    background-image: url("../../../images/mobile/image-photography.jpg");
+    background-size: 100%;
+    height: 70vh;
+    text-align: center;
+    position: relative;
+
+    &-wrapper {
+      position: absolute;
+      bottom: 3em;
+    }
+
+    &-title {
+      font-size: 2em;
+      font-weight: $fontWeightBolder;
+      color: $darkCyanText;
+    }
+
+    &-desc {
+      margin: auto;
+      line-height: 1.5em;
+      width: 90%;
+      font-family: $fontSansSerif;
+      font-weight: 700;
+      font-size: 18px;
+      margin-top: 2em;
+      color: $darkCyanText;
+    }
+  }
+}

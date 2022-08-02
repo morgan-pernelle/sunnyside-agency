@@ -1,0 +1,85 @@
+@import '../../styles/vars';
+
+.header {
+  
+  &-wrapper {
+    position: relative;
+    background-image: url("../../../images/mobile/image-header.jpg");
+    background-size: 100%;
+  }
+
+  &-logo {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+  }
+
+  &-burger {
+    position: relative;
+
+    & button {
+      position: absolute;
+      right: 30px;
+      top: 30px;
+      z-index: 10;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+    }
+    
+    &-menu {
+      border-radius: 1em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-y: scroll;
+      list-style: none;
+      background: $white;
+      overflow: hidden;
+      width: 0;
+      max-width: 80%;
+      margin: auto;
+
+      &.show-menu {
+        width: 100%;
+      }
+
+      &-item a {
+        cursor: pointer;
+        display: inline-block;
+        padding: 15px;
+        text-decoration: none;
+        color: $darkGrayBlue;
+        font-weight: $fontWeightMed;
+        font-family: $fontSansSerif;
+      }
+    }
+  }
+
+  &-title {
+    text-align: center;
+
+    & h1 {
+      font-family: $fontSerif;
+      font-weight: $fontWeightBold;
+      font-size: 3em;
+      letter-spacing: 8px;
+      color: $white;
+      margin-bottom: 1em;
+      text-transform: uppercase;
+    }
+
+    &-arrow {
+      margin-bottom: 9em;
+    }
+  }
+}
+
+#contact {
+  font-family: $fontSerif;
+  font-weight: $fontWeightBold;
+  background-color: $yellow;
+  text-transform: uppercase;
+  border-radius: 25px;
+}
