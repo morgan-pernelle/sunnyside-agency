@@ -1,0 +1,51 @@
+@import '../../styles/vars';
+
+.reviews {
+
+  &-wrapper {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    text-align: center;
+  }
+  
+  &-title {
+    font-size: 18px;
+    color: $grayBlue;
+    margin-bottom: 4em;
+    letter-spacing: 5px;
+    font-weight: $fontWeightBolder;
+    text-transform: uppercase;
+  }
+  
+  &-item {
+
+    &-picture {
+      margin-bottom: 2em;
+      max-width: 80px;
+      border-radius: 50%;
+    }
+
+    &-text {
+      margin: auto;
+      margin-bottom: 2em;
+      line-height: 30px;
+      width: 80%;
+      color: $darkerBlue;
+      font-family: $fontSansSerif;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    &-user {
+      margin-bottom: .7em;
+      color: $darkerBlue;
+      font-size: 24px;
+      font-weight: $fontWeightBolder;
+    }
+
+    &-position {
+      margin-bottom: 7em;
+      color: $grayBlue;
+    }
+  }
+}

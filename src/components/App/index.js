@@ -1,4 +1,5 @@
 // == Import
+import Reviews from '../Reviews';
 import Content from '../Content';
 import Header from '../Header';
 import './style.scss';
@@ -9,6 +10,7 @@ function App() {
     <div className="app">
       <Header />
       <Content />
+      <Reviews />
     </div>
   );
 }
