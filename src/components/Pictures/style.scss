@@ -1,0 +1,13 @@
+@import '../../styles/vars';
+
+.pictures {
+
+  &-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &-item {
+    width: 50%;
+  }
+}

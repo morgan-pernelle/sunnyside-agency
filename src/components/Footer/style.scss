@@ -1,0 +1,34 @@
+@import '../../styles/vars';
+
+.footer {
+
+  &-wrapper {
+    background-color: $cyanFooter;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-logo {
+    width: 50%;
+    margin: 4em auto 2em auto;
+  }
+
+  &-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5em;
+
+    &-item {
+      font-family: $fontSansSerif;
+      color: $cyanFooterText;
+      font-weight: 900;
+    }
+  }
+
+  &-social {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 6em;
+    margin-bottom: 4em;
+  }
+}

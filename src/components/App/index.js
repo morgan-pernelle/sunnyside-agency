@@ -1,8 +1,10 @@
 // == Import
+import './style.scss';
 import Reviews from '../Reviews';
 import Content from '../Content';
 import Header from '../Header';
-import './style.scss';
+import Footer from '../Footer';
+import Pictures from '../Pictures';
 
 // == Composant
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <Header />
       <Content />
       <Reviews />
+      <Pictures />
+      <Footer />
     </div>
   );
 }
